@@ -1,38 +1,41 @@
 .contact-section {
-  background-color: var(--light-bg);
+  background-color: #f8f9fa;
 }
 
 .card {
   border: none;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .form-label {
   font-weight: 500;
-  color: var(--primary-color);
+  color: #495057;
 }
 
 .form-control {
   border: 1px solid #ced4da;
   padding: 0.75rem;
+  border-radius: 5px;
 }
 
 .form-control:focus {
-  border-color: var(--primary-color);
+  border-color: #80bdff;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .btn-primary {
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
   padding: 0.75rem 2rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
-  background-color: var(--secondary-color);
-  border-color: var(--secondary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
 }
 
 .alert {
-  margin-bottom: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
 } 
