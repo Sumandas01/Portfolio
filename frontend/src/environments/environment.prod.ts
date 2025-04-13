@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: '/api'  // This will be proxied to the Node.js backend
+  apiUrl: 'portfolio-tlbl-qcy2c3ymm-suman-das-projects-fdf4c39c.vercel.app' // Replace with your actual Vercel backend URL
 }; 
